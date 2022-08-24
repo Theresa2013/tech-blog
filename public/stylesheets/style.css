@@ -12,17 +12,17 @@
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #5a22a3;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #5a22a3;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #5a22a3;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #6e34eb;
   }
   
   .post-list {
@@ -41,6 +41,11 @@
     padding: 0;
   }
   
+  .column {
+    float: left;
+    width: 50%;
+  }
+
   textarea, input {
     padding: .5%;
     border-radius: 5px;
@@ -49,7 +54,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #5a22a3;
   }
   
   textarea {
@@ -97,7 +102,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #5a22a3;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,7 +111,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: #5a22a3;
   }
   
   .delete-post-btn {
@@ -125,7 +130,7 @@
   .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: black;
   }
   
   .edit-link {
