@@ -1,5 +1,19 @@
 ### Tech Blog
 
+## Table of Contents
+
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Questions](#questions)
+
+## Description
+
+This is a technology blog website where developers can publish anything they want technology related and also comment on other developers posts! This website uses handlebars.js, sequelize, and express-session npm package.
+
 ## User Story
 
 ```md
@@ -46,4 +60,41 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-Deployed URL: https://powerful-harbor-02219.herokuapp.com/ 
+## Installation
+
+```md
+npm init
+npm install express sequelize mysql2
+mysql -u root -p
+Enter Password when prompted
+source db/schema.sql
+quit
+npm install dotenv
+npm install bcrypt
+npm install express-handlebars
+npm i express-session connect-session-sequelize
+npm start
+```
+
+## Usage
+
+![Demo](./public/images/Screenshot.png)
+![Demo](./public/images/Screenshot1.png)
+![Demo](./public/images/Screenshot2.png)
+![Demo](./public/images/Screenshot3.png)
+
+Deployed URL: https://powerful-harbor-02219.herokuapp.com/
+
+GitHub Repo: https://github.com/Theresa2013/tech-blog.git
+
+## Contributing
+
+If you are interested in future development, please reach via email or Github!
+
+## Questions
+
+If you have any questions, please feel free to reach out!
+
+Github username: Theresa2013
+
+Github Email: tab61295@gmail.com
