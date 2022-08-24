@@ -89,7 +89,7 @@ GitHub Repo: https://github.com/Theresa2013/tech-blog.git
 
 ## Contributing
 
-If you are interested in future development, please reach via email or Github!
+If you are interested in future development, please reach me via email or Github!
 
 ## Questions
 
